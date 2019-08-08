@@ -1,0 +1,107 @@
+/* ...global section... */
+body { 
+    background-color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+}
+h1{color: teal;}
+p { 
+  font-size: 18px;
+
+}
+a { 
+    display:inline-block;
+    text-decoration:none;
+    color:red;
+}
+a:hover{
+    color: blueviolet;
+}
+
+/* header section */
+header {
+    position: relative;
+    }
+    nav{
+        position: absolute;
+        top:5px;
+        left:70%;
+    }
+    nav a{
+    padding: 6px;
+    text-transform: uppercase;
+    }
+    /* main... */
+    #hero-img{
+        background-image: url(./img/hero.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color:white;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+.alpha-img{
+    background: rgba(70,130,180,0.5);
+    padding: 10%;
+}
+.alpha-img h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.alpha-img p{
+    font-size: 25px;
+    color: white;
+    line-height: 55px;
+}
+.main-wrapper{
+    width: 80%;
+    margin: 0% auto;
+}
+.flex-display{
+    display: flex;
+    margin-bottom: 2em;
+}
+.item{
+    padding-left: 1em;
+    margin-right: 2%;
+    width:  40%;
+    background-color: #ffffff;
+}
+.card {
+    border: 2px solid #eee;
+    box-shadow: #ccc 0 1px 3px;
+}
+.card img {
+    width:  50%;
+    /* float: left; */
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.card h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+/* footer section */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid gray;
+
+}
+.credit{
+    margin-bottom: -90px;
+    color:blue; 
+}
+.debit{
+    text-transform: capitalize;
+    margin-bottom: -20px;
+    margin-left: 2em;
+}
+address ul li{
+    list-style: none;
+
+}
